@@ -19,7 +19,7 @@ public class BaseTest {
 		
 		UiAutomator2Options options=new UiAutomator2Options();
 		options.setDeviceName("PIXELPHONE");
-		options.setApp("//Users//tharindu//git//repository//MobileTest//src//test//java//resources//ApiDemos-debug.apk");
+		options.setApp("//Users//tharindu//git//MobileTest//MobileTest//src//test//java//resources//ApiDemos-debug.apk");
 		driver= new AndroidDriver(new URL("http://127.0.0.1:4723"),options);
 	}
 	

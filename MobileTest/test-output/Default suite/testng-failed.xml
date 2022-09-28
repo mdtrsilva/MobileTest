@@ -5,7 +5,9 @@
     <classes>
       <class name="mobileTest.appium.MobileTest">
         <methods>
-          <include name="start"/>
+          <include name="tearDown"/>
+          <include name="configureAppium"/>
+          <include name="setupApp"/>
         </methods>
       </class> <!-- mobileTest.appium.MobileTest -->
     </classes>
